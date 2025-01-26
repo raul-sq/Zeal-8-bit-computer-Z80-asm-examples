@@ -6,7 +6,7 @@ A collection of Z80 Assembly language examples and projects created for self-stu
 
 This program demonstrates basic arithmetic and output functionality on the Zeal 8-bit Computer. It performs the following steps:
 
-  1. Calculates the sum of two predefined operands (operand1 = 2 and operand2 = 3).
+  1. Calculates the sum of two predefined operands (`operand1 = 2` and `operand2 = 3`).
 
   2. Converts the result into its ASCII representation.
 
