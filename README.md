@@ -1,7 +1,8 @@
 # Zeal-8-bit-computer-asm-examples
 A collection of Z80 Assembly language examples and projects created for self-study and experimentation on the Zeal 8-bit Computer.
 
-**program1.asm**
+
+## program1.asm
 
 This program demonstrates basic arithmetic and output functionality on the Zeal 8-bit Computer. It performs the following steps:
 
@@ -16,3 +17,23 @@ This program demonstrates basic arithmetic and output functionality on the Zeal 
 This example is designed to run on the Zeal 8-bit Computer and can be compiled using the Zealasm compiler with the following command:
 
 `exec zealasm.bin program1.asm program1.bin`
+
+
+## program2.asm
+
+This program demonstrates the use of the 8-bit load immediate instruction on the Zeal 8-bit Computer. It performs the following steps:
+
+  1. Loads the value 0x12 (18 in decimal) into register B using the LD instruction.
+
+  2. Converts the value into its ASCII decimal representation ("18").
+
+  3. Outputs the result followed by a newline character.
+
+  4. Exits the program.
+
+This example is based on **Example 3-1 (p. 38)** from the book:
+"**The Z80 Microprocessor: Hardware, Software, Programming, and Interfacing**" by Barry B. Brey (1988, Prentice-Hall, Inc., New Jersey).
+
+It is designed for the Zeal 8-bit Computer and can be compiled using the `z88dk-z80asm` compiler on Linux with the following command:
+
+`z88dk-z80asm -m=z80 -b -m program2.asm`
