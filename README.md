@@ -43,13 +43,13 @@ It is designed for the Zeal 8-bit Computer and can be compiled using the `z88dk-
 
 This program demonstrates 16-bit value manipulation and ASCII conversion on the Zeal 8-bit Computer. It performs the following steps:
 
-    Loads the 16-bit value `0x10CD` (4301 in decimal) into the HL register pair.
+  1. Loads the 16-bit value `0x10CD` (4301 in decimal) into the HL register pair.
 
-    Converts the value into its ASCII decimal representation, including five digits with leading zeros (e.g., `"04301"`).
+  2. Converts the value into its ASCII decimal representation, including five digits with leading zeros (e.g., `"04301"`).
 
-    Appends a newline character to the result and stores it in a buffer.
+  3. Appends a newline character to the result and stores it in a buffer.
 
-    Writes the result to STDOUT and exits with code `15`.
+  4. Writes the result to STDOUT and exits with code `15`.
 
 This example is based on Example **3-4 (p. 40)** from the book:
 "**The Z80 Microprocessor: Hardware, Software, Programming, and Interfacing**" by Barry B. Brey (1988, Prentice-Hall, Inc., New Jersey).
