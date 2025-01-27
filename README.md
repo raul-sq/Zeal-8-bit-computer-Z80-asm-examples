@@ -40,6 +40,8 @@ It is designed for the Zeal 8-bit Computer and can be compiled using the `z88dk-
 
 `z88dk-z80asm -m=z80 -b -m program2.asm`
 
+The source code can be accessed here: [program2.asm](src/program2.asm)
+
 
 ## program3.asm
 
@@ -59,3 +61,5 @@ This example is based on Example **3-4 (p. 40)** from the book:
 It is designed for the Zeal 8-bit Computer and can be compiled using the `z88dk-z80asm` compiler on Linux with the following command:
 
 `z88dk-z80asm -m=z80 -b -m program3.asm`
+
+The source code can be accessed here: [program3.asm](src/program3.asm)
