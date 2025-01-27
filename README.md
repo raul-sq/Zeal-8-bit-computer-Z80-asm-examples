@@ -18,7 +18,7 @@ This example is designed to run on the Zeal 8-bit Computer and can be compiled u
 
 `exec zealasm.bin program1.asm program1.bin`
 
-The source code can be accessed here: [program1.asm] (https://github.com/raul-sq/Zeal-8-bit-computer-Z80-asm-examples/blob/main/src/program1.asm)
+The source code can be accessed here: [program1.asm] (./src/program1.asm)
 
 
 ## program2.asm
