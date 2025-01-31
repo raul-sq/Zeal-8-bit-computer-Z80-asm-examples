@@ -92,4 +92,30 @@ This program:
   `z88dk-z80asm -m=z80 -b -m program4.asm`
 
   The source code can be accessed here: [program4.asm](src/program4.asm)
+
   
+ ## program5.asm
+
+ This program:
+
+ - Demonstrates the use of the 16-bit Direct Addressed Instruction:
+   ld (address), hl to store a 16-bit register pair into memory.
+
+ - Uses an address within the program's own space (0x4000 in this case) to
+   avoid conflicts with system memory.
+
+ - The program:
+   1. Loads the value 0x4241 (ASCII 'BA') into HL.
+   2. Stores the value of HL into memory address 0x4000 using ld (0x4000), hl.
+   3. Loads the value from memory address 0x4000 back into HL.
+   4. Writes both bytes of HL (ASCII 'B' and 'A') to STDOUT.
+   5. Writes a newline character to STDOUT.
+   6. Exits with code `15`.
+
+ - Is based on Example **3-8 (p.42)** from the book:
+   "**The Z80 Microprocessor. Hardware, Software, Programming and Interfacing**"
+   by Barry B. Brey, 1988, Prentice-Hall, Inc., New Jersey.
+
+ - Was created for the Zeal 8-bit Computer and can be compiled with the 
+   z88dk-z80asm compiler on Linux using the command:
+     z88dk-z80asm -m=z80 -b -m program5.asm
