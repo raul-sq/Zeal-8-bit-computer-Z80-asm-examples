@@ -76,7 +76,7 @@ This program:
   avoid conflicts with system memory.
 
 - The program:
-  1. Loads the value 0x42 (ASCII 'B') into the accumulator (A).
+  i. Loads the value 0x42 (ASCII 'B') into the accumulator (A).
   2. Stores the value of A into memory address 0x4000 using `ld (0x4000), a`.
   3. Loads the value from memory address 0x4000 back into A.
   4. Writes the value in A to STDOUT, printing the character 'B' to the screen.
