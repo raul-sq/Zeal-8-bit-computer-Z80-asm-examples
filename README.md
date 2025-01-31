@@ -81,7 +81,7 @@ This program:
   3. Loads the value from memory address 0x4000 back into A.
   4. Writes the value in A to STDOUT, printing the character 'B' to the screen.
   5. Writes a newline character to STDOUT.
-  6. Exits with code **15**.
+  6. Exits with code `15`.
 
 - Is based on Example **3-7 (p.41)** from the book:
   "**The Z80 Microprocessor. Hardware, Software, Programming and Interfacing**"
