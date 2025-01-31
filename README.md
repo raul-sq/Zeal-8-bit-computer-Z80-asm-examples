@@ -91,5 +91,5 @@ This program:
   
   `z88dk-z80asm -m=z80 -b -m program4.asm`
 
-  The source code can be accessed here: [program3.asm](src/program4.asm)
+  The source code can be accessed here: [program4.asm](src/program4.asm)
   
